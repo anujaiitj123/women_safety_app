@@ -2,6 +2,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:my_app/widgets/CustomCarouel.dart';
 import 'package:my_app/widgets/custom_appBar.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -16,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Random random=Random();
 
     setState(() {
-      qIndex=random.nextInt(2);
+      qIndex=random.nextInt(6);
     });
   }
 
@@ -35,6 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Column(
             children: [
               CustomAppBar(getRandomQuote,qIndex), 
+              Customcarousel(),
             ],
           ),
         ),
