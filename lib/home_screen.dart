@@ -1,9 +1,8 @@
 
 import 'dart:math';
-
 import 'package:flutter/material.dart';
-import 'package:my_app/widgets/CustomCarouel.dart';
-import 'package:my_app/widgets/custom_appBar.dart';
+import 'package:my_app/widgets/home_widgets/CustomCarouel.dart';
+import 'package:my_app/widgets/home_widgets/custom_appBar.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
